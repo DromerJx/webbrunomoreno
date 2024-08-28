@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./imagenes/icon-axolotl.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ruda:wght@400..900&display=swap" rel="stylesheet">
+
+    <title>Formulario e-mail</title>
+</head>
+<body>
+    <header class="header">
+        <figure class="logo-pagina">
+            <img src="./imagenes/icon-axolotl.png" alt="logo pagina">
+        </figure>
+        <nav>
+            <ul class="nav-links">
+                <li class="nav-link"><a href="./index.html">Inicio</a></li>
+                <li class="nav-link"><a href="./formulario-email.html">Contacto</a></li>
+                <li class="nav-link">
+                    <a href="#" class="xdd">Articulos</a>
+                    <ul class="nav-link-articulos">
+                        <li class="nav-link"><a href="./desarrolladorweb.html">¿Desarrollador web?</a></li>
+                        <li class="nav-link"><a href="./negocioenlinea.html">¿Mi negocio online?</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="cont-main-formulario">
+        <section class="formulario-card">
+            <h2 class="titulo-formulario">Enviame tu petición</h2>
+            <form action="https://formsubmit.co/brunobrouss@gmail.com" method="post">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="name" placeholder="Juanito Alcachofa">
+                
+                <label for="email">Correo de contacto</label>
+                <input type="email" name="email" placeholder="example@email.com">
+
+                <label for="subject">Asunto</label>
+                <input type="text" name="subject" placeholder="Cotizacion de una landing page">
+
+                <label for="comments">Comentarios / Detalles</label>
+                <textarea name="comments" cols="30" rows="10"></textarea>
+
+                <input type="submit" name="Enviar" class="main-button">
+
+                <input type="hidden" name="_next" value="https://dromerjx.github.io/desarrolladorweb-brunomoreno/">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
