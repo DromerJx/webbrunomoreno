@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hoy en dia la comptencia del mercado es bastante agresiva y el no tener presencia en linea puede dejar atras a un negocio con potencial">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-article.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./imagenes/icon-axolotl.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ruda:wght@400..900&display=swap" rel="stylesheet">
+
+    <title>Mi negocio en linea | Estar en linea cada vez es mas necesario</title>
+</head>
+<body>
+    <header class="header">
+        <figure class="logo-pagina">
+            <img src="./imagenes/icon-axolotl.png" alt="logo pagina">
+        </figure>
+        <nav>
+            <ul class="nav-links">
+                <li class="nav-link"><a href="./index.html">Inicio</a></li>
+                <li class="nav-link"><a href="./formulario-email.html">Contacto</a></li>
+                <li class="nav-link">
+                    <a href="#" class="xdd">Artículos</a>
+                    <ul class="nav-link-articulos">
+                        <li class="nav-link"><a href="./desarrolladorweb.html">¿Desarrollador web?</a></li>
+                        <li class="nav-link"><a href="./negocioenlinea.html">¿Mi negocio online?</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link">
+                    <a href="#" class="xdd">Herramientas</a>
+                    <ul class="nav-link-articulos">
+                        <li class="nav-link"><a href="./calculadorarendimiento.html">Calculadora de rendimiento</a></li>
+                        <li class="nav-link"><a href="#">Cálculo TDC a deber</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="presentation-section">
+            <section class="presentation-top">
+                <section class="title-article">
+                    <h1>calculadora de rendimiento</h1>
+                </section>
+                <figure class="image-article">
+                    <img src="./imagenes/imgs de calculadora rendimiento/portada_img.webp" alt="monedas de la inversion">
+                    <p class="creditos-imagen">Foto de <a href="https://www.pexels.com/es-es/foto/monedas-en-madera-marron-210600/">Pixabay</a></p>
+                </figure>
+            </section>
+            <section class="presentation-bottom">
+                <ul class="section-inf-article">
+                    <li class="inf-article"><span>Autor:</span> Bruno M. Muñoz</li>
+                    <li class="inf-article"><span>Última fecha de actualización:</span> Septiembre 5, 2024</li>
+                    <li class="inf-article"><span>Tipo publicación:</span> Herramienta de ayuda</li>
+                </ul>
+            </section>
+        </section>
+
+        <section class="seccion-contenido-articulo">
+            <article class="descripcion-articulo">
+                <p>Esta calculadora permite visualizar los intereses que podrías generar a lo largo del tiempo, en función de la tasa de interés anual que elijas. Ofrece una estimación del crecimiento de tu dinero si lo mantienes en cuentas de NU, Stori, Dinn, Mercado Pago, Klar, entre otras. Además, permite comparar las tasas de interés de las diversas SOFIPO disponibles en el mercado, así como las ofrecidas por bancos tradicionales. Sin reinversión.</p>
+            </article>
+
+            <article class="seccion-h2">
+                <h2>utilidad para pequeños inversores</h2>
+                <section class="contenedor-2-bloques-simetricos">
+                    <div class="contenedor-inversion">
+                        <input type="text" id="fname" name="fname" placeholder="Banco / SOFIPO">
+                        <form id="calcForm">
+                            <label for="interes" class="formsubtitulo">Interés (Anual %)</label>
+                            <input type="number" id="interes" class="formllenado" step="any" required>
+
+                            <label for="plazo" class="formsubtitulo">Plazo (días)</label>
+                            <input type="number" id="plazo" class="formllenado" required>
+
+                            <label for="monto" class="formsubtitulo">Monto a invertir</label>
+                            <input type="number" id="monto" class="formllenado" required>
+
+                            <button type="submit" class="primarybutton">Calcular</button>
+                        </form>
+                        <section class="resultadosinversion">
+                            <p class="formsubtitulo">Dinero al finzalizar el plazo</p>
+                            <div id="resultadototal" class="formllenado"></div>
+                            <p class="formsubtitulo">Ganancia</p>
+                            <div id="resultadoganancia" class="formllenado"></div>
+                        </section>
+                    </div>
+
+                    <!-- <div class="contenedor-inversion">
+                        <input type="text" id="fname" name="fname" placeholder="Banco / SOFIPO">
+                        <form id="calcform">
+                            <label for="interes" class="formsubtitulo">Interés (Anual %)</label>
+                            <input type="number" id="interes" class="formllenado" step="any" required>
+
+                            <label for="plazo" class="formsubtitulo">Plazo (días)</label>
+                            <input type="number" id="plazo" class="formllenado" required>
+
+                            <label for="monto" class="formsubtitulo">Monto a invertir</label>
+                            <input type="number" id="monto" class="formllenado" required>
+
+                            <button type="submit" class="primarybutton">Calcular</button>
+                        </form>
+                        <section class="resultadosinversion">
+                            <p class="formsubtitulo">Dinero al finzalizar el plazo</p>
+                            <div id="resultadototal" class="formllenado"></div>
+                            <p class="formsubtitulo">Ganancia</p>
+                            <div id="resultadoganacia" class="formllenado"></div>
+                        </section>
+                    </div> -->
+                </section>
+                
+            </article>
+            
+        </section>
+    </main>
+    <script src="script-calculo-rendimiento.js"></script>
+</body>
+</html>

@@ -314,6 +314,79 @@ flex-direction: column;
     gap: .5rem;
 }
 
+/* Seccion de calculadora de rendimeinto */
+.contenedor-2-bloques-simetricos {
+    width: 100%;
+    height: fit fit-content;
+    display: grid;
+    place-content: center;
+    gap: 1rem;
+    margin-bottom: 5rem;
+}
+.contenedor-inversion {
+    max-width: 600px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: var(--color-transparent-bento-box);
+    border-radius: 1rem;
+    padding: 1.5rem 3rem;
+}
+.formllenado {
+    width: 50%;
+    height: 2rem;
+    background: var(--color-transparent-bento-box);
+    border: 2px solid var(--color01);
+    border-radius: 4px;
+}
+.primarybutton {
+    width: 50%;
+    height: 2rem;
+    align-self: center;
+    margin: 1rem 0;
+    background: var(--color-transparent-bento-box);
+    border: 1px solid var(--color01);
+    border-radius: .5rem;
+    color: rgba(255, 0, 76, 0.688);
+    letter-spacing: .125rem;
+}
+.primarybutton:hover {
+    cursor: pointer;
+    background-color: #a6aec1;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+.resultadosinversion {
+    display: flex;
+    gap: .5rem;
+    flex-direction: column;
+    align-items: end;
+}
+
+
+
+#fname {
+    background: transparent;
+    display: flex;
+    text-align: center;
+}
+.formsubtitulo {
+    font-size: 1rem;
+    font-family: var(--font2);
+    font-weight: 600;
+}
+#resultadototal,
+#resultadoganancia {
+    display: grid;
+    align-items: center;
+    text-align: end;
+    font-size: 1rem;
+    font-family: var(--font3);
+    font-weight: 500;
+    padding: 0 1rem;
+}
+
+
 
 
 @media (max-width: 420px) {
