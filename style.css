@@ -845,6 +845,9 @@ a {
     .contato-res {
         display: none;
     }
+    .contacto-res-tit {
+        display: flex;
+    }
     h5 {
         display: flex;
     }
