@@ -283,6 +283,21 @@ h2 {
     padding-right: 5rem;
     background: var(--color-transparent-bento-box);
 }
+.cont-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    text-align: center;
+}
+.contacto-bottom {
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+    display: flex;
+}
+.contacto-res-tit {
+    display: none;
+}
 
 
 .bottom-bento-box {
@@ -479,7 +494,11 @@ textarea {
     text-align: center;
 }
 
-
+h5 {
+    font-size: .8rem;
+    font-family: var(--font2);
+    font-weight: 600;
+}
 h4 {
     font-size: 1.2rem;
     font-family: var(--font2);
@@ -806,16 +825,28 @@ a {
         /* align-items: center; */
         margin-left: 0;
     }
-    
+    .contacto-bottom {
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+    }
     .bento-contacto {
         grid-column: 2/3;
         grid-row: 3/4;
-        /* display: flex;
-        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between;
         align-items: center; */
         padding-left: 1rem;
         padding-right: 1rem;
         /* background: linear-gradient(to right, black, #494434); */
+    }
+    .contato-res {
+        display: none;
+    }
+    h5 {
+        display: flex;
     }
     
     
