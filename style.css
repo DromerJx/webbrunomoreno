@@ -531,7 +531,7 @@ a {
 
 /* ----- Resposive desig: movile ----- */
 
-@media (max-width: 420px) {
+@media (max-width: 520px) {
     /* body {
         width: 100%;
         height: fit-content;
