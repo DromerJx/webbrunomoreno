@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bruno Moreno Munoz es un estudiante de Tecnologias de la Informacion, Web Developer o Desarrollador Web que tiene como meta engrandecer a las PYMES.">
+
+  <link rel="stylesheet" href="/style.css">
+
+  <title>Generador de Cotización</title>
+
+</head>
+<body>
+
+  <main class="mainContent">
+
+    
+    <section class="card">
+      <h2>Cotización</h2>
+  
+      <form action="/generar" method="POST">
+    
+        <label>Solicitante:</label><br>
+          <input type="text" name="solicitante"><br><br>
+    
+        <label>Prioridad:</label><br>
+        <select name="prioridad" required>
+          <option value="">Seleccione una opción</option>
+          <option value="Baja">Baja</option>
+          <option value="Mediana">Mediana</option>
+          <option value="Alta">Alta</option>
+          <option value="Extrema">Urgente</option>
+        </select><br><br>
+    
+        <label>Ticket:</label><br>
+          <input type="number" name="ticket"><br><br>
+    
+        <label>Fecha:</label><br>
+          <input type="date" name="fecha"><br><br>
+    
+        <label>IT Responsable:</label><br>
+          <input type="text" name="itResponsable"><br><br>
+    
+        <label>Tipo de Solicitud:</label><br>
+          <input type="text" name="tipoSolicitud"><br><br>
+    
+        <label>Articulo o Servicio:</label><br>
+          <input type="text" name="articulo"><br><br>
+    
+        <label>Descripcion:</label><br>
+          <input type="text" name="descripcion"><br><br>
+    
+        <label>Total:</label><br>
+          <input type="text" name="total"><br><br>
+    
+        <label>Observaciones:</label><br>
+          <input type="text" name="observaciones"><br><br>
+    
+        <button type="submit">Generar PDF</button>
+    
+      </form>
+  
+    </section>
+  </main>
+
+</body>
+</html>
