@@ -23,16 +23,13 @@ body {
     background-color: #F2F2F2;
 }
 header {
-    width: 95%;
-    height: 5rem;
-    display: flex;
+    width: 100%;
+    /* max-width: 1224px; */
+    padding: 48px 16px;
     justify-content: space-between;
-    background-color: var(--color-bento-box);
-    padding: 0 5rem;
-    margin-top: 1rem;
-    border-radius: 1rem;
-    border-bottom: 4px solid var(--color01);
-    /* box-shadow: 0px 1px 20px 1px #cfd5e1; */
+    background-color: rgb(240, 245, 255);
+    display: flex;
+    align-items: center;
 }
 .logo-pagina {
     width: auto;
@@ -42,7 +39,7 @@ header {
 }
 .logo-pagina img {
     width: auto;
-    height: 4rem;
+    height: 105px;
 }
 nav {
     width: fit-content;
@@ -98,7 +95,9 @@ main {
     flex-direction: column;
     align-items: center;
 }
-
+.card{
+    margin: 2rem 0;
+}
 .cont-card {
     width: 100%;
     height: fit-content;
@@ -530,6 +529,9 @@ a {
     color: #6c788e;
 }
 
+
+
+
 .logo-connet{
     width: 100%;
     display: flex;
@@ -551,6 +553,13 @@ a {
     flex-direction: column;
     height: 4rem;
     gap:1rem;
+}
+.nav-links-connet{
+    display: flex;
+    gap: 2rem;
+}
+.nav-link-connet{
+list-style-type: none;
 }
 
 /* ----- Resposive desig: movile ----- */
