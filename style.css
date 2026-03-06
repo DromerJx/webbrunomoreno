@@ -534,7 +534,7 @@ a {
     display: flex;
     /* object-fit: cover; */
     /* align-items: center; */
-    justify-content: end;
+    justify-content: start;
     /* justify-items: center;
     place-items: center; */
 }
