@@ -529,6 +529,23 @@ a {
     color: #6c788e;
 }
 
+.logo-connet{
+    width: 100%;
+    display: flex;
+    /* object-fit: cover; */
+    /* align-items: center; */
+    justify-content: end;
+    /* justify-items: center;
+    place-items: center; */
+}
+.logo-connet img{
+    max-width: 10rem;
+    padding: 1rem;
+    /* border-radius: 4px; */
+    /* box-shadow: -10px 10px 30px 10px rgba(0, 0, 0, 0.3); */
+    
+}
+
 /* ----- Resposive desig: movile ----- */
 
 @media (max-width: 520px) {

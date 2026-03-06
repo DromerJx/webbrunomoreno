@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Connet:SD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main-content">
+        <section class="card">
+            <figure class="logo-connet">
+                <img src="/imagenes/icon-connet.png" alt="logotipo de connet">
+            </figure>
+            <section class="formulario-card">
+                <h2 class="titulo-formulario">Levantamiento de ticket</h2>
+                <form action="https://formsubmit.co/brunobrouss@gmail.com" method="post">
+
+                <div class="pregunta-card">                    
+                    <label>Empresa solicitante:</label>
+                    <input type="text" name="empresa" placeholder="Ej: CONNet">
+                </div>
+
+                <div class="pregunta-card">                    
+                    <label>Departamento:</label>
+                    <input type="text" name="departamento" placeholder="Ej: RRHH">
+                </div>
+
+                <div class="pregunta-card">                    
+                    <label>Persona solicitante</label>
+                    <input type="text" name="name" placeholder="Ej: Juan Gutierrez">
+                </div>
+
+                <div class="pregunta-card">                    
+                    <label>Fecha:</label>
+                    <input type="date" name="fecha">
+                </div>
+
+                <div class="pregunta-card">                    
+                    <label>Prioridad:</label>
+                    <select name="prioridad" required>
+                        <option value="">Seleccione una opción</option>
+                        <option value="Baja">Baja</option>
+                        <option value="Mediana">Mediana</option>
+                        <option value="Alta">Alta</option>
+                        <option value="Urgente">Urgente</option>
+                    </select>
+                </div>
+                
+                <div class="pregunta-card">                    
+                    <label>Tipo de Solicitud:</label>
+                    <input type="text" name="tipoSolicitud" placeholder="Ej: Mantenimiento">
+                </div>
+                
+                <div class="pregunta-card">                    
+                    <label>Articulo o servicio:</label>
+                    <select name="articuloServicio" required>
+                        <option value="articulo">Articulo</option>
+                        <option value="servicio">Servicio</option>
+                    </select>
+                </div>
+                
+                <div class="pregunta-card">                    
+                    <label>Descripcion:</label>
+                    <input type="text" name="descripcion" placeholder="Ej: Mucho polvo en PC">
+                </div>
+
+                <div class="pregunta-card">                    
+                </div>
+
+                <input type="submit" name="Enviar" class="main-button">
+
+                <input type="hidden" name="_next" value="https://dromerjx.github.io/webbrunomoreno/">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+        </section>
+        </section>
+    </main>
+</body>
+</html>
