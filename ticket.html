@@ -18,7 +18,7 @@
 
                 <div class="pregunta-card">                    
                     <label>Empresa solicitante:</label>
-                    <input type="text" name="empresa" placeholder="Ej: CONNet">
+                    <input type="text" name="empresa" placeholder="Ej: CONNeT">
                 </div>
 
                 <div class="pregunta-card">                    
@@ -46,10 +46,23 @@
                         <option value="Urgente">Urgente</option>
                     </select>
                 </div>
+
+                <div class="pregunta-card">                    
+                    <label>Tipo de solicitud:</label>
+                    <select name="prioridad" required>
+                        <option value="mantenimientoHRW">Mantenimiento de hardware</option>
+                        <option value="instalacionSFTW">Instalacion de Software</option>
+                        <option value="hrwNew">Hardware nuevo</option>
+                        <option value="servicioImpresora">Servicio de impresoras</option>
+                        <option value="redTelefonia">Red y telefonia</option>
+                        <option value="serviciosMixtos">Servicios Mixtos</option>
+                        <option value="otros">Otros</option>
+                    </select>
+                </div>
                 
                 <div class="pregunta-card">                    
-                    <label>Tipo de Solicitud:</label>
-                    <input type="text" name="tipoSolicitud" placeholder="Ej: Mantenimiento">
+                    <label>Descripción:</label>
+                    <input type="text" name="tipoSolicitud" placeholder="Ej: Error en...">
                 </div>
                 
                 <div class="pregunta-card">                    

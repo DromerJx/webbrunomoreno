@@ -546,6 +546,12 @@ a {
     /* box-shadow: -10px 10px 30px 10px rgba(0, 0, 0, 0.3); */
     
 }
+.pregunta-card{
+    display: flex;
+    flex-direction: column;
+    height: 4rem;
+    gap:1rem;
+}
 
 /* ----- Resposive desig: movile ----- */
 
