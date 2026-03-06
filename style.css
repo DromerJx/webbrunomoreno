@@ -447,6 +447,7 @@ h2 {
     background-color: #a6aec1;
     border-radius: 1rem;
     padding: 2rem;
+    place-self: center;
 }
 form {
     width: 100%;
