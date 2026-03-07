@@ -1,6 +1,7 @@
 :root {
     --font1: 'Bebas Neue', sans-serif;
     --font2: 'ruda', sans-serif;
+    --font3: 'Catamaran', sans-serif;
     --color00: #ff005d;
     --color01: #6c788e;
     --color02: #a6aec1;
@@ -555,9 +556,24 @@ a {
     gap:1rem;
 }
 .nav-links-connet{
+    /* text-decoration: red;
+    
+    color: #1D1E20; */
+    font-weight: 400;
+    font-family: var(--font3);
     display: flex;
     gap: 2rem;
 }
+.nav-links-connet a{
+    color:#1D1E20;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+.nav-links-connet a:hover{
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
 .nav-link-connet{
 list-style-type: none;
 }
