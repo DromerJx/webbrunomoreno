@@ -21,7 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #F2F2F2;
+    /* background-color: #F2F2F2; */
 }
 header {
     width: 100%;
@@ -566,12 +566,12 @@ a {
 }
 .nav-links-connet a{
     color:#1D1E20;
-    text-decoration: underline;
-    text-underline-offset: 8px;
 }
 .nav-links-connet a:hover{
     cursor: pointer;
     color: #FFFFFF;
+    text-decoration: underline;
+    text-underline-offset: 8px;
 }
 
 .nav-link-connet{
