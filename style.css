@@ -567,6 +567,15 @@ a {
 .nav-links-connet a{
     color:#1D1E20;
 }
+.nav-link-connet:nth-child(5){
+    text-decoration: underline;
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-underline-offset: 8px;    
+}
+.nav-link-connet:nth-child(5) a{
+    color: #FFFFFF;
+}
 .nav-links-connet a:hover{
     cursor: pointer;
     color: #FFFFFF;
