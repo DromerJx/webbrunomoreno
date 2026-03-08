@@ -29,8 +29,8 @@ header {
     padding: 48px 16px;
     justify-content: space-between;
     background-color: rgb(240, 245, 255);
-    display: flex;
-    align-items: center;
+    place-items: center;
+
 }
 .logo-pagina {
     width: auto;
@@ -569,22 +569,31 @@ a {
 }
 .nav-link-connet:nth-child(5){
     text-decoration: underline;
-    color: #FFFFFF;
+    color: #60BF1A;
     text-decoration: underline;
     text-underline-offset: 8px;    
 }
 .nav-link-connet:nth-child(5) a{
-    color: #FFFFFF;
+    color: #60BF1A;
 }
 .nav-links-connet a:hover{
     cursor: pointer;
-    color: #FFFFFF;
+    color: #60BF1A;
     text-decoration: underline;
     text-underline-offset: 8px;
 }
-
 .nav-link-connet{
 list-style-type: none;
+}
+.head-content{
+    display: flex;
+    width: 100%;
+    max-width: 1224px;
+    /* place-items: center; */
+
+    /* gap: 3rem; */
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* ----- Resposive desig: movile ----- */
