@@ -1,10 +1,17 @@
 :root {
-    --font1: 'Bebas Neue', sans-serif;
-    --font2: 'ruda', sans-serif;
-    --font3: 'Catamaran', sans-serif;
+    --font1: 'Bebas Neue',  sans-serif;
+    --font2: 'ruda',        sans-serif;
+    --font3: 'Catamaran',   sans-serif;
+    --font4: 'Raleway',     sans-serif;
+    --font5: 'Roboto',      sans-serif;
     --color00: #ff005d;
     --color01: #6c788e;
     --color02: #a6aec1;
+    --colorconnet01: #60BF1A;
+    --colorconnet02: #1D1E20;
+    --colorconnet03: #0E2433;
+    --colorconnet04: #8B8B8B;
+    --colorconnet05: #CCCCCC;
     --color-bento-box: #e4e5eb;
     --color-transparent-bento-box: linear-gradient(to right, transparent, var(--color-bento-box));
 }
@@ -100,6 +107,8 @@ main {
     align-items: center;
 }
 .card{
+    max-width: 300px;
+    width: 100%;
     margin: 2rem 0;
 }
 .cont-card {
@@ -447,7 +456,7 @@ h2 {
     height: fit-content;
     display: grid;
     place-items: center;
-    background-color: #a6aec1;
+    /* background-color: #a6aec1; */
     border-radius: 1rem;
     padding: 2rem;
     place-self: center;
@@ -465,14 +474,13 @@ form {
 }
 input {
     width: 100%;
-    height: 2.2rem;
+    height: 1.7rem;
     border-radius: .3rem;
-    border: none;
-    font-size: 1rem;
-    font-family: var(--font2);
+    border: 1px solid var(--colorconnet05);
+    font-size: .7rem;
+    font-family: var(--font5) ;
     font-weight: 400;
-    padding: 0 1rem;
-    color: black;
+    padding: 0 .5rem;
 }
 textarea {
     width: 100%;
@@ -483,9 +491,13 @@ textarea {
     padding: 1rem;
 }
 .main-button {
-    background-color: #6c788e;
-    font-size: 1.3rem;
-    font-family: var(--font2);
+    width: 80%;
+    height: 3.5rem;
+    border-radius: 2rem;
+    align-self: center;
+    background-color: var(--colorconnet03);
+    font-size: 1rem;
+    font-family: var(--font4);
     color: white;
     margin-top: 2rem;
 }
@@ -495,7 +507,11 @@ textarea {
 }
 .titulo-formulario {
     margin-bottom: 3rem;
-    text-align: center;
+    color: var(--colorconnet03);
+    font-family: var(--font4);
+    font-weight: 600;
+    line-height: 3rem;
+    letter-spacing: .06rem;
 }
 
 h5 {
@@ -555,8 +571,13 @@ a {
 .pregunta-card{
     display: flex;
     flex-direction: column;
-    height: 4rem;
-    gap:1rem;
+    margin-bottom: 1rem;
+    gap:.5rem;
+}
+label{
+    font-family: var(--font4);
+    font-weight: 400;
+    color: var(--colorconnet04);
 }
 .nav-links-connet{
     /* text-decoration: red;
@@ -568,20 +589,20 @@ a {
     gap: 2rem;
 }
 .nav-links-connet a{
-    color:#1D1E20;
+    color: var(--colorconnet02);
 }
 .nav-link-connet:nth-child(5){
     text-decoration: underline;
-    color: #60BF1A;
+    color: var(--colorconnet01);
     text-decoration: underline;
     text-underline-offset: 8px;    
 }
 .nav-link-connet:nth-child(5) a{
-    color: #60BF1A;
+    color: var(--colorconnet01);
 }
 .nav-links-connet a:hover{
     cursor: pointer;
-    color: #60BF1A;
+    color: var(--colorconnet01);
     text-decoration: underline;
     text-underline-offset: 8px;
 }
@@ -598,6 +619,33 @@ list-style-type: none;
     align-items: center;
     justify-content: space-between;
 }
+
+/* FOOTER SECCION */
+footer{
+    /* display: flex; */
+    width: 100%;
+    background: var(--colorconnet01);
+    place-items: center;
+}
+.footer-main-content{
+    display: flex;
+    width: 100%;
+    max-width: 1224px;
+    place-items: center;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 48px 16px;
+}
+h2{
+    font-family: var(--font3);
+}
+.izq-footer{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font3);
+    color: red;
+}
+
 
 /* ----- Resposive desig: movile ----- */
 
