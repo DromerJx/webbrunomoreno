@@ -481,6 +481,14 @@ input {
     font-family: var(--font5) ;
     font-weight: 400;
     padding: 0 .5rem;
+    color: var(--colorconnet03);
+}
+select{
+    font-size: .7rem;
+    height: 1.7rem;
+    border: 1px solid var(--colorconnet05);
+    color: var(--colorconnet05);
+    font-family: var(--font5);
 }
 textarea {
     width: 100%;
@@ -569,12 +577,15 @@ a {
     
 }
 .pregunta-card{
+    font-family: var(--font5);
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
     gap:.5rem;
 }
 label{
+    font-size: 1rem;
+    letter-spacing: .05rem;
     font-family: var(--font4);
     font-weight: 400;
     color: var(--colorconnet04);
