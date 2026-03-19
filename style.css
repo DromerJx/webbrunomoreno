@@ -1282,4 +1282,9 @@ footer{
     a {
         text-decoration: none;
     }
+    .footer-main-content{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
 }
