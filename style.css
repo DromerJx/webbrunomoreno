@@ -7,6 +7,7 @@
     --color00: #ff005d;
     --color01: #6c788e;
     --color02: #a6aec1;
+    --color03: #ffffff;
     --colorconnet01: #60BF1A;
     --colorconnet02: #1D1E20;
     --colorconnet03: #0E2433;
@@ -31,6 +32,9 @@ body {
     /* background-color: #F2F2F2; */
 }
 #header-placeholder{
+    width: 100%;
+}
+#footer-placeholder{
     width: 100%;
 }
 header {
@@ -647,21 +651,79 @@ footer{
 .footer-main-content{
     display: flex;
     width: 100%;
+    min-height: 20rem;
     max-width: 1224px;
     place-items: center;
-    /* align-items: center; */
     justify-content: space-between;
     padding: 48px 16px;
 }
-h2{
-    font-family: var(--font3);
-}
 .izq-footer{
+    width: 100%;
+    max-width: 25rem;
     display: flex;
     flex-direction: column;
     font-family: var(--font3);
-    color: red;
+    
 }
+.footer-main-button{
+    width: 7.5rem;
+    border: none;
+    align-self: start;
+    margin: 0;
+    background: black;
+    font-family: var(--font3);
+    font-size: .875rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+#email{
+    height: 3rem;
+    padding: 1rem;
+    font-family: var(--font3);
+    font-size: 1rem;
+    font-size: .875rem;
+    font-weight: 400;
+    border: none;
+}
+.footer-form label{
+    /* max-height: 1rem; */
+    font-family: var(--font3);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color03);
+}
+
+.der-footer{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 1rem;
+}
+.der-footer-redes{
+    display: flex;
+    width: 100%;
+    max-width: 8.75rem;
+    justify-content: space-between;
+}
+.der-footer-redes img{
+    justify-content: space-between;
+    align-content: space-between;
+    place-content: space-between;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+}
+.der-footer p{
+    font-family: var(--font5);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color03);
+    text-decoration: underline;
+}
+.der-footer p:hover{
+    cursor: pointer;
+}
+
 
 
 /* ----- Resposive desig: movile ----- */
