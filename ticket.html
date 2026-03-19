@@ -45,39 +45,38 @@
                 <form action="https://formsubmit.co/a535c91a1878b823b78958406484b2ce" method="post">
 
                 <div class="pregunta-card">                    
-                    <label>Empresa solicitante:</label>
-                    <input type="text" name="empresa" placeholder="Ej: CONNeT">
+                    <label for="empresa">Empresa solicitante:</label>
+                    <input id="empresa" type="text" name="empresa" placeholder="Ej: CONNeT">
                 </div>
 
                 <div class="pregunta-card">                    
-                    <label>Departamento:</label>
-                    <input type="text" name="departamento" placeholder="Ej: RRHH">
+                    <label for="departamento">Departamento:</label>
+                    <input type="text" id="departamento" name="departamento" placeholder="Ej: RRHH">
                 </div>
 
                 <div class="pregunta-card">                    
-                    <label>Persona solicitante</label>
-                    <input type="text" name="name" placeholder="Ej: Juan Gutierrez">
+                    <label for="solicitante">Persona solicitante</label>
+                    <input type="text" id="solicitante" name="solicitante" placeholder="Ej: Juan Gutierrez">
                 </div>
 
                 <div class="pregunta-card">                    
-                    <label>Fecha:</label>
-                    <input type="date" name="fecha">
+                    <label for="fecha" >Fecha:</label>
+                    <input type="date" id="fecha" name="fecha">
                 </div>
 
                 <div class="pregunta-card">                    
-                    <label>Prioridad:</label>
-                    <select name="prioridad" required>
-                        <option value="">Seleccione una opción</option>
-                        <option value="Baja">Baja</option>
-                        <option value="Mediana">Mediana</option>
-                        <option value="Alta">Alta</option>
-                        <option value="Urgente">Urgente</option>
+                    <label for="prioridad">Prioridad:</label>
+                    <select id="prioridad" name="prioridad" required>
+                        <option value="baja">Baja</option>
+                        <option value="mediana">Mediana</option>
+                        <option value="alta">Alta</option>
+                        <option value="urgente">Urgente</option>
                     </select>
                 </div>
 
                 <div class="pregunta-card">                    
-                    <label>Tipo de solicitud:</label>
-                    <select name="prioridad" required>
+                    <label for="tipoSolicitud">Tipo de solicitud:</label>
+                    <select id="tipoSolicitud" name="tipoSolicitud" required>
                         <option value="mantenimientoHRW">Mantenimiento de hardware</option>
                         <option value="instalacionSFTW">Instalacion de Software</option>
                         <option value="hrwNew">Hardware nuevo</option>
@@ -89,22 +88,19 @@
                 </div>
                 
                 <div class="pregunta-card">                    
-                    <label>Descripción:</label>
-                    <input type="text" name="tipoSolicitud" placeholder="Ej: Error en...">
+                    <label for="descripcion">Descripción:</label>
+                    <input type="text" id="descripcion" name="descripcion" placeholder="Ej: Error en...">
                 </div>
                 
                 <div class="pregunta-card">                    
-                    <label>Articulo o servicio:</label>
-                    <select name="articuloServicio" required>
+                    <label for="articuloServicio">Articulo o servicio:</label>
+                    <select id="articuloServicio" name="articuloServicio" required>
                         <option value="articulo">Articulo</option>
                         <option value="servicio">Servicio</option>
                     </select>
                 </div>
 
-                <div class="pregunta-card">                    
-                </div>
-
-                <input type="submit" name="Enviar" class="main-button">
+                <input type="submit" name="Enviar" class="main-button" onclick="alert('Formulario enviado satisfactoriamente')">
 
                 <input type="hidden" name="_next" value="https://connetsd.net">
                 <input type="hidden" name="_captcha" value="false">
