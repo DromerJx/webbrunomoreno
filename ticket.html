@@ -42,7 +42,7 @@
         <section class="card">            
             <section class="formulario-card card-ticket">
                 <h2 class="titulo-formulario">Levantamiento de ticket</h2>
-                <form action="https://formsubmit.co/a535c91a1878b823b78958406484b2ce" method="post">
+                <form action="https://formsubmit.co/a535c91a1878b823b78958406484b2ce" method="post" enctype="multipart/form-data">
 
                 <div class="pregunta-card">                    
                     <label for="empresa">Empresa solicitante:</label>
@@ -98,6 +98,11 @@
                         <option value="articulo">Articulo</option>
                         <option value="servicio">Servicio</option>
                     </select>
+                </div>
+
+                <div class="pregunta-card">
+                    <label for="evidencia">Adjuntar evidencia (Imagen):</label>
+                    <input type="file" id="evidencia" name="evidencia" accept="image/*">
                 </div>
 
                 <input type="submit" name="Enviar" class="main-button" onclick="alert('Formulario enviado satisfactoriamente')">
