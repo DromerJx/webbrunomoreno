@@ -456,10 +456,16 @@ h2 {
     height: fit-content;
     display: grid;
     place-items: center;
-    /* background-color: #a6aec1; */
     border-radius: 1rem;
     padding: 2rem;
     place-self: center;
+}
+.card-ticket {
+    background-image: url(/imagenes/muckup_levantamiento_ticket_icon.png);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: contain;
 }
 form {
     width: 100%;
