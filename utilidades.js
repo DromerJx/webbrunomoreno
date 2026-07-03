@@ -17,6 +17,12 @@ const CATEGORIAS = [
     nombre: "Redes",
     herramientas: [
       {
+        nombre: "HiTools Delivery",
+        descripcion: "Gestión de cámaras y NVRs",
+        url: "https://www.hikvision.com/en/support/tools/hitools/cl7f0143d2c781a3e3/",
+        icono: "📹",
+      },
+      {
         nombre: "Ubiquiti UniFi",
         descripcion: "Controlador de red UniFi",
         url: "https://www.ui.com/download/unifi",
@@ -45,6 +51,30 @@ const CATEGORIAS = [
   {
     nombre: "Sistemas",
     herramientas: [
+      {
+        nombre: "Ninite",
+        descripcion: "Empaquetador de utilidades básicas",
+        url: "https://ninite.com/",
+        icono: "💎",
+      },
+      {
+        nombre: "Chris Titus WinTool",
+        descripcion: "Optimización y limpieza de Windows",
+        url: "https://github.com/christitustech/winutil",
+        icono: "⚙️",
+      },
+      {
+        nombre: "MiniTool Partition Wizard",
+        descripcion: "Gestor de particiones para Windows",
+        url: "https://cdn2.minitool.com/?p=pw&e=pw-free",
+        icono: "💽",
+      },
+      {
+        nombre: "CrystalDisk - Info/Mark",
+        descripcion: "Estado y salud de Discos",
+        url: "https://crystalmark.info/en/download/",
+        icono: "💧",
+      },
       {
         nombre: "Debian ISO",
         descripcion: "Imagen de instalación Debian",
