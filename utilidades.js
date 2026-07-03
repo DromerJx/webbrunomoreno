@@ -25,7 +25,7 @@ const CATEGORIAS = [
       {
         nombre: "Omada Controller",
         descripcion: "Gestión de red TP-Link",
-        url: "https://www.tp-link.com/support/download/omada-software-controller/",
+        url: "https://support.omadanetworks.com/us/download/software/omada-controller/",
         icono: "📡",
       },
       {
