@@ -618,15 +618,15 @@ nav {
 .nav-links-connet a{
     color: var(--colorconnet03);
 }
-.nav-link-connet:nth-child(5){
+/* .nav-link-connet:nth-child(5){
     text-decoration: underline;
     color: var(--colorconnet01);
     text-decoration: underline;
     text-underline-offset: 8px;    
-}
-.nav-link-connet:nth-child(5) a{
+} */
+/* .nav-link-connet:nth-child(5) a{
     color: var(--colorconnet01);
-}
+} */
 .nav-links-connet a:hover{
     cursor: pointer;
     color: var(--colorconnet01);
