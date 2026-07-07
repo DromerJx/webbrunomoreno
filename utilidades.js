@@ -106,7 +106,13 @@ const CATEGORIAS = [
         icono: "🗂️",
       },
       {
-        nombre: "windows 11",
+        nombre: "Project 2024 Professional LTSC",
+        descripcion: "Productividad de Microsoft",
+        url: "https://download.winandoffice.com/Volume/project/2024/ES/project_2024_ES_64Bits.exe",
+        icono: "🗂️",
+      },
+      {
+        nombre: "Windows 11",
         descripcion: "Sistema operativo de Microsoft",
         url: "https://www.microsoft.com/en-us/software-download/windows11",
         icono: "🪟",
